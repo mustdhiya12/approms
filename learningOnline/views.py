@@ -3,4 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Ini OPL.V2")
+    return render(request, "app/index.html",{
+        "name":"Pandu Wirayuda", 
+        "greet":"Assalamualaikum", 
+        "head":"learning web", 
+        "header":"header", 
+        "footer":"footer", 
+    })
