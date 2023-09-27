@@ -1,2 +1,2 @@
 # Sarpras_v2
-Membuat applications Sarpras versi mahsiswa
+Membuat applications Sarpras yang dikembangkan oleh mahasiswa
